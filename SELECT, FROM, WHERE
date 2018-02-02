@@ -1,0 +1,31 @@
+• The IDs and durations for all trips of duration greater than 500, ordered by duration.
+
+SELECT
+   trip_id, duration
+FROM 
+   trips
+WHERE
+   duration > 500
+ORDER BY 
+   duration
+
+
+• Every column of the Stations table for Station ID 84.
+
+SELECT 
+  *
+FROM
+  stations
+WHERE
+  station_id = 84
+
+
+• The minimum temperatures of all the occurrences of rain in zipcode 94301.
+
+SELECT
+  MinTemperatureF, Events, ZIP
+FROM
+  weather
+WHERE 
+  Events = 'Rain' AND
+  ZIP = '94301'
