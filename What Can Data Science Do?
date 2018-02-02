@@ -1,0 +1,35 @@
+1. You work at an e-commerce company that sells three goods: widgets, doodads, and fizzbangs. The head of advertising asks you which they should feature in their new advertising campaign. You have data on individual visitors' sessions (activity on a website, pageviews, and purchases), as well as whether or not those users converted from an advertisement for that session. You also have the cost and price information for the goods.
+
+	• Sort the individual visitor session dataset by the associated good.
+	• Calculate descriptive statistics to answer these questions: 
+		○ "During how many of these sessions did the individual visitors actually interact with content about the goods?" 
+			§ "For which goods were pages getting hits?" 
+			§ "How many views were the pages for each good getting?"
+		○ "During how many of these sessions did the individual visitors actually purchase the goods?"
+			§ "How much of each did they order on average?"
+			§ "What was the average order total?"
+	• Calculate unit profit margins for the widgets, doodads, and fizzbangs using unit cost and price information. 
+	• Make a recommendation that maximizes expected return on the advertising campaign spend by managing hypothetical tradeoffs:
+		○ Improving the lackluster sales performance (according to purchase/conversion rate data) of one good that might have higher unit profit margins.
+		○ Exploiting the popularity (according to website activity/page view data) of another good that might have lower unit profit margins. 
+	
+2. You work at a web design company that offers to build websites for clients. Signups have slowed, and you are tasked with finding out why. The onboarding funnel has three steps: email and password signup, plan choice, and payment. On a user level you have information on what steps they have completed as well as timestamps for all of those events for the past 3 years. You also have information on marketing spend on a weekly level.
+
+	• Sort the onboarding funnel dataset by user.
+		○ Calculate descriptive statistics to answer the question:
+			§ "How often have users dropped out of the signup process at each of the steps?"
+	• Sort the onboarding funnel dataset by timestamp. 
+		○ Calculate descriptive statistics to answer the question:
+			§ "Is there a significant correlation between the weekly marketing spend and weekly customer acquisition rates?"
+
+3. You work at a hotel website and currently the website ranks search results by price. For simplicity's sake, let's say it's a website for one city with 100 hotels. You are tasked with proposing a better ranking system. You have session information, price information for the hotels, and whether each hotel is currently available.
+
+	• Use session information (page tracking - assuming it's included in the dataset) to construct a new variable for users' website navigation patterns. 
+	• Calculate descriptive statistics to answer the question: 
+		○ "Based on the recurrence of certain navigation patterns, what do users' underlying content preferences seem to be?"
+	• Use session information (in-page clicks and dwell time - assuming they're included in the dataset) to either validate/re-evaluate emerging user content preferences. 
+
+4. You work at a social network, and the management is worried about churn (users stopping using the product). You are tasked with finding out if their churn is atypical. You have three years of data for users with an entry for every time they've logged in, including the timestamp and length of session.
+
+	• Construct time-series plots of users' login frequency and session length over the 3-year period using the timestamps.
+	• Compare those time-series plot to an industry benchmark model for social networks (assuming one exists) over the 3-year time period. 
