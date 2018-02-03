@@ -1,0 +1,21 @@
+For each of the following scenarios, call out the potential biases in the proposed experiment. Do your best to try to discover not only the bias, but the initial design. There is plenty of room for interpretation here, so make sure to state what assumptions you're making.
+
+• You're testing advertising e-mails for a bathing suit company and you test one version of the email in February and the other in May.
+INITIAL DESIGN: A/B Testing
+BIAS(ES): Seasonality
+ASSUMPTION(S): Responses are significantly influenced by the seasonal transition and can't be isolated to the e-mail versions. 
+
+• You open a clinic to treat anxiety and find that the people who visit show a higher rate of anxiety than the general population.
+INITIAL DESIGN: A/A Testing
+BIAS(ES): Self-Selection (Sampling)
+ASSUMPTION(S): Visiting patients are more likely to have clinical anxiety because prior clinical or (self-) diagnosis probably motivated their decision to seek treatment in the first place. Establishing a threshold for anxiety could inform future A/B testing.
+
+• You launch a new ad billboard-based campaign and see an increase in website visits in the first week.
+INITIAL DESIGN: A/B Testing
+BIAS(ES): Contextual
+ASSUMPTION(S): There's no certainty that people are visiting the website because they saw the ad billboard. 
+
+• You launch a loyalty program but see no change in visits in the first week.
+INITIAL DESIGN: A/B Testing
+BIAS(ES): Observer
+ASSUMPTION(S): A change in website visits may not be the correct key metric to measure to gauge the loyalty program's effectiveness.
