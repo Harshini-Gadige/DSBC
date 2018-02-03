@@ -1,0 +1,21 @@
+Look back to the potential experiments in the previous assignment. For one of those experiments, write up the essential points of an RFC for an improved version of that experiment.
+
+• The Sith Lords are concerned that their recruiting slogan, "Give In to Your Anger," isn't very effective. Darth Vader develops an alternative slogan, "Together We Can Rule the Galaxy." They compare the slogans on two groups of 50 captured droids each. In one group, Emperor Palpatine delivers the "Anger" slogan. In the other, Darth Vader presents the "Together" slogan. 20 droids convert to the Dark Side after hearing Palpatine's slogan, while only 5 droids convert after hearing Vader's. The Sith's data scientist concludes that "Anger" is a more effective slogan and should continue to be used.  
+
+PROBLEM: 
+The Sith Lords want to maximize recruitment yield from captured droid populations to sustain their cause against the Jedi, but they're not sure what components of their strategy to change to do so. 
+
+
+POTENTIAL SOLUTION:
+They're hypothesizing that a more motivational slogan (delivered with charisma and conviction to the most receptive targets) will recruit the most captured droids so that their ranks rapidly grow.
+
+
+METHOD OF TESTING THE SOLUTION: 
+Develop demographic/psychographic profiles for targets based on already-recruited droid captives, so that population sampling can exclusively target them. Randomize selection into 20 trial groups of 5 droids each. Subject them to dual-level control and treatment conditions.
+
+Control 1 (5 Trial Groups - 25 Captured Droids): Emperor Palpatine delivers "Give In To Your Anger".
+Control 2 (5 Trial Groups - 25 Captured Droids): Darth Vader delivers "Together We Can Rule the Galaxy".
+Treatment 1 (5 Trial Groups - 25 Captured Droids): Emperor Palpatine delivers "Together We Can Rule the Galaxy".
+Treatment 2 (5 Trial Groups - 25 Captured Droids): Darth Vader delivers "Give In To Your Anger".
+
+Analysis will calculate the recruitment rate by slogan and recruiter to determine which most significantly impacts yield. 
