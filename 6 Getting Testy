@@ -1,0 +1,33 @@
+(For each of the following questions, outline how you could use an A/B test to find an answer. Be sure to identify all five key components of an A/B test we outlined above.
+
+• Does a new supplement help people sleep better?
+CONTROL: No supplementation of any kind.
+TREATMENT: Taking only the new supplement. 
+SAMPLE: Adult insomniacs who are otherwise healthy - randomly distributed with respect to age, gender, occupation, and weight.
+HYPOTHESIS:The new supplement helps people sleep better. 
+KEY METRIC: Sleep quality measured daily using a polysomnogram.
+OTHER MEASURED VARIABLE(S): Sleep time measured daily using a wrist actigraph.
+
+• Will new uniforms help a gym's business?
+CONTROL: Current uniforms.
+TREATMENT: New uniforms. 
+SAMPLE: Prospective corporate partners' representatives hearing a service offering presentation.
+HYPOTHESIS:New uniforms will not help a gym's business.
+KEY METRIC:Corporate discount contract close rate. 
+OTHER MEASURED VARIABLE(S): Facility tour requests.
+
+• Will a new homepage improve my online exotic pet rental business?
+CONTROL: The current homepage.
+TREATMENT: A redesigned homepage.
+SAMPLE: Existing site visitors. 
+HYPOTHESIS: A redesigned homepage will improve your online exotic pet rental business.
+KEY METRIC: Sale conversion rate.
+OTHER MEASURED VARIABLE(S): Homepage clickthrough rate.
+
+• If I put 'please read' in the email subject will more people read my emails?
+CONTROL: E-mails with only a brief description in the subject line.
+TREATMENT: E-mails with 'please read' preceding a brief a description in the subject line.
+SAMPLE: Existing e-mail list subscribers. 
+HYPOTHESIS: More people will read your e-mails if you put 'please read' in the subject line.
+KEY METRIC: Engagement time distribution (delete vs.skim vs. read).
+OTHER MEASURED VARIABLE(S): Call-to-action button click rate.
