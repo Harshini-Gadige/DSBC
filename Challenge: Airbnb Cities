@@ -1,0 +1,50 @@
+
+My City: Washington, D.C.
+
+
+What's the most expensive listing? What else can you tell me about the listing?
+SELECT 
+	l.id Listing_ID,
+	l.name Listing_Name,
+	l.host_name Host_Name,
+	l.neighbourhood Neighborhood,
+	l.room_type Listing_Type,
+	MAX(l.price) Daily_Cost
+	
+FROM 
+	listings l
+  
+  
+What neighborhoods seem to be the most popular?
+SELECT 
+	l.neighbourhood Neighborhood,
+	l.availability_365 Popularity_Highest_to_Lowest
+FROM 
+	listings l
+GROUP BY
+	l.neighbourhood
+ORDER BY
+	l.availability_365
+	
+	
+What time of year is the cheapest time to go to your city? What about the busiest?
+SELECT 
+	l.last_review Time_of_Year,
+	l.price Daily_Cost
+FROM 
+	listings l
+GROUP BY
+	Time_of_Year
+ORDER BY
+	Daily_Cost
+	
+	
+SELECT 
+	l.last_review Time_of_Year,
+	l.availability_365 Popularity_Highest_to_Lowest
+FROM 
+	listings l
+GROUP BY
+	Time_of_Year
+ORDER BY
+	Popularity_Highest_to_Lowest
