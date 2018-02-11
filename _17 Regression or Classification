@@ -1,0 +1,9 @@
+For each of the following situations, decide if you would model using a regression or classification model. Discuss your reasoning with your mentor next time you meet.
+
+The amount a person will spend on a given site in the next 24 months: Regression - Continuous Outcome.
+What color car someone is going to buy: Classification - Discrete Outcome {'Red','Blue','Black','White','n'}.
+How many children a family will have: Classification - Discrete Outcome {1,2,3,4,5,6,n}.
+If someone will sign up for a service: Classification - Discrete Outcome {'Signed Up','Didn't Sign Up'}.
+The number of times someone will get sick in a year: Regression - Continuous Outcome.
+The probability someone will get sick in the next month. Classification - Discrete Outcome {'Sick','Not Sick'}.
+Which medicine will work best for a given patient: Classification - Discrete Outcome {x% Medication 1, x% Medication 2, x% Medication n}.
