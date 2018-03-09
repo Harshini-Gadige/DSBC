@@ -3,9 +3,9 @@ Let's say we work at a credit card company and we're trying to figure out if peo
 
 1] Create validation set from past cycle data on payment timeliness and categorized purchases for n randomly sampled customers.
 2] Create a testing set from current cycle data on payment timeliness and categorized purchases for n randomly sampled customers. 
-3] Create continuous features using each of the purchase categories, with dollar amounts as floats. The unit equivalence assumption is        already satisfied so there's no need for normalization, and feature weighting could be based on linear model coefficients.
+3] Create continuous features using each of the purchase categories, with dollar amounts as floats. The features could be z-normalized, and weighting could be based on distance.
 4] Binary-code the target, on-time bill payment, with 1 as 'Yes' and 0 as 'No'. 
 5] Arbitarily initialize k (KNN).
 6] Use sklearn's cross_val_score function to fit the model to the training folds in k-fold cross-validation and make predictions for the test folds, then revise k (KNN) to optimize tradeoff between smoothed decision spaces/feature dominance and error/overfitting noise.
-7] Finalize the model and use sklearn's cross_val_predict function to make target predictions for the testing set. 
+7] Finalize the weighted/unweighted models and use sklearn's cross_val_predict function to make target predictions for the testing set. 
 
